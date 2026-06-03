@@ -30,4 +30,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print secret
-        run: echo: ${{ secrets.TEST }}
+        run: echo ${{ secrets.TEST }}
